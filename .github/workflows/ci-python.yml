@@ -25,7 +25,7 @@ jobs:
 
     - name: Ejecutar tests
       run: |
-        pytest tests/ -v
+        pytest tests/ 
 
     - name: Ejecutar con cobertura
       run: |
